@@ -85,7 +85,7 @@ header p a:hover {
 
 header nav {
     font-family: var(--font-acid);
-    font-size: 3vw;
+    font-size: 3.5vw;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
     display: inline-block;
     box-sizing: border-box;
