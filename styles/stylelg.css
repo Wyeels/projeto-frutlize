@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: rgb(216, 222, 226);
+    margin: 0;
+    padding: 0px;
+}
+
+input {
+    max-width: 50vw;
+    max-height: 20vw;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px;
+    margin: 4px;
+
+    position: relative;
+    top: 30vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+input:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+    transform: scale(1.1) translate(-50%, -50%);
+    transition: .5s;
+}
